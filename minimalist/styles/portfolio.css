@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ibarra Real Nova", serif;
+    font-family: "Public Sans", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0px auto;
+    padding: 0px 20px;
+    max-width: 1150px;
+}
+
+/* -----------------HEADER START----------------- */
+
+header {
+    width: 100%;
+    height: 32px;
+    margin-top: 60px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    height: 32px;
+}
+
+ul {
+    display: flex;
+    column-gap: 3rem;
+}
+
+.list-item-active a {
+    color: #5FB4A2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+.list-item a {
+    color: #33323D;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* ----------------------HEADER END---------------------- */
+
+
+/* -----------------------SECTION FIRST START---------------------------- */
+
+.first-section{
+    margin-top: 100px;
+}
+
+.first-section-wrapper{
+    display: flex;
+    gap: 125px;
+}
+
+
+.first-section-wrapper-left{
+    background-color: #FFEFEC;
+    width: 540px;
+    height: 500px;
+}
+
+.first-section-wrapper-right{
+    width: 350px;
+    height: 500px;
+}
+
+.title{
+    color: #33323D;
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    margin-top: 100px;
+}
+
+.text{
+    color: #33323D;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+button{
+    color: #33323D;
+    border: #33323D 1px solid;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    width: 175px;
+    height: 48px;
+    background-color: #fff;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: #33323D;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.hr{
+    width: 350px;
+    float: right;
+    margin-top: 108px;
+    height: 1px;
+    color: #33323D;
+    opacity: 15%;
+}
+
+.class-hr{
+    width: 350px;
+    height: 1px;
+    color: #33323D;
+    opacity: 15%;
+}
+
+
+
+/* -----------------------SECTION FIRST END---------------------------- */
+
+
+/* -----------------------SECTION SECOND START---------------------------- */
+
+.second-section{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+
+.second-section-wrapper{
+    display: flex;
+    gap: 125px;
+}
+
+.second-section-wrapper-left{
+    background-color: #4F63D8;
+    width: 540px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-wrapper-left img{
+    margin-top: 50px;
+}
+
+.second-section-wrapper-right{
+    width: 350px;
+    height: 500px;
+    
+}
+
+
+
+/* -----------------------SECTION SECOND END---------------------------- */
+
+
+
+
+/* -----------------------SECTION THIRD START---------------------------- */
+
+.third-section{
+    margin-top: 80px;
+}
+
+.third-section-wrapper{
+    display: flex;
+    gap: 125px;
+}
+
+.third-section-wrapper-left{
+    background-color:#9A99AB;
+    width: 540px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-section-wrapper-left img{
+    margin-top: 50px;
+}
+
+.third-section-wrapper-right{
+    width: 350px;
+    height: 500px;
+}
+
+
+
+/* -----------------------SECTION THIRD END---------------------------- */
+
+
+
+
+/* -----------------------SECTION FOURTH START---------------------------- */
+
+.fourth-section{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+
+.fourth-section-wrapper{
+    display: flex;
+    gap: 125px;
+}
+
+.fourth-section-wrapper-left{
+    background-color:#41B4D3;
+    width: 540px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-section-wrapper-left img{
+    margin-top: 50px;
+   
+}
+
+.fourth-section-wrapper-right{
+    width: 350px;
+    height: 500px;
+}
+
+
+/* -----------------------SECTION FOURTH END---------------------------- */
+
+/* ----------------------------SECTION FIVE START-------------------------------- */
+
+
+.fifth-section{
+    margin-top: 200px;
+}
+
+.contact-me-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me-page-text{
+    color: #33323D;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+    font-family: "Ibarra Real Nova", serif;
+    width: 350px;
+}
+
+.contact-me-page-button{
+    border:#33323D 1px solid;
+    width: 162px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+
+hr{
+    width: 534px;
+    color: #33323D;
+    opacity: 15%;
+}
+
+
+/* ----------------------------SECTION FIVE END-------------------------------- */
+
+/*----------------------------------------FOOTER START--------------------------------------------- */
+
+footer{
+    margin-top: 200px;
+    background-color: #33323D;
+    width: 100%;
+    height: 80px;
+   
+}
+
+.footer-wrapper{
+    display: flex;
+    padding-top: 27px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-list{
+    margin-right: 520px;
+}
+
+.footer-list-item a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Public Sans", sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+
+
+/*----------------------------------------FOOTER END--------------------------------------------- */
